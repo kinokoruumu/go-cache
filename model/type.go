@@ -30,11 +30,11 @@ type Article struct {
 	Model
 	Title string
 	Text string
+	Tags []Tag `gorm:"-"`
 }
 
 type Tag struct {
 	Model
-	TagID uint
 	Name string
 }
 
