@@ -4,6 +4,9 @@ create:
 migrate:
 	go run cmd/migrate.go
 
+seed:
+	go run cmd/seed.go
+
 run:
 	env DB_SOURCE=production go run main.go
 

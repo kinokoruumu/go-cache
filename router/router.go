@@ -2,7 +2,7 @@ package router
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/chotchy-inc/PATRAProductAPI/middleware"
+	"github.com/kinokoruumu/go-cache/middleware"
 )
 
 func GetRouter() *gin.Engine {

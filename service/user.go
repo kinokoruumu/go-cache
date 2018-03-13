@@ -1,6 +1,6 @@
 package service
 
-import "github.com/chotchy-inc/PATRAProductAPI/model"
+import "github.com/kinokoruumu/go-cache/model"
 
 var User = user{}
 

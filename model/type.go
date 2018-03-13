@@ -25,3 +25,21 @@ type Token struct {
 type Recipi struct {
 	Model
 }
+
+type Article struct {
+	Model
+	Title string
+	Text string
+}
+
+type Tag struct {
+	Model
+	TagID uint
+	Name string
+}
+
+type ArticleTag struct {
+	Model
+	ArticleID uint
+	TagID uint
+}
